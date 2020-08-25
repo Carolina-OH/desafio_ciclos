@@ -25,8 +25,7 @@ function init() {
         do {
         var respuesta= prompt("¿De qué color es el caballo blanco de napoleón?")
         } while (respuesta.toLowerCase()!="blanco");
-        document.write(`<h1 style="text-align:center; font-size:50px">Desafío Ciclos y métodos</h1> 
-        <p style="text-align:center; font-size:30px"> Revisa la consola</p>`)
+        document.write(`<h1 style="text-align:center; font-size:50px">Desafío Ciclos y métodos</h1>`)
             break;
 
         case 3:
@@ -98,7 +97,7 @@ function init() {
             }
             var consonantes=(nombre.length-conttotal)
             alert(`El nombre ${nombre} posee ${conttotal} vocales y ${consonantes} consonantes`);
-            document.write(`<h1 style="text-align:center; font-size:50px">Desafío Ciclos y métodos</h1><p style="text-align:center; font-size:30px"> Revisa la consola</p>`)
+            document.write(`<h1 style="text-align:center; font-size:50px">Desafío Ciclos y métodos</h1>`)
             break;
             default:
             alert("debe ingresar un número entre 1 y 5");
