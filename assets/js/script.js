@@ -76,7 +76,7 @@ function init() {
             var nombre=prompt("Ingrese su nombre")        
             var conttotal=0
             for (var i=0;i<nombre.length;i++){
-            switch (nombre[i]) {
+            switch (nombre.toLowerCase()[i]) {
                 case 'a':
                     conttotal++
                     break;
