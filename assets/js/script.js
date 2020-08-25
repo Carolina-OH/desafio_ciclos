@@ -5,7 +5,7 @@ function init() {
         case 1:
         //ejercicio1
         var num=prompt("Ingresa un numero")
-            if (num<1 ||num>100) {
+            if (num<1 ||num>100 || isNaN(num)) {
                 alert("Debe ingresar un número entre 1 y 100")
                 num=prompt("ingresa un numero")
                 for (let i = 0; i <= num; i++) {
