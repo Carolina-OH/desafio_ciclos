@@ -24,7 +24,7 @@ function init() {
         //ejericio2
         do {
         var respuesta= prompt("¿De qué color es el caballo blanco de napoleón?")
-        } while (respuesta.toLocaleLowerCase()!="blanco");
+        } while (respuesta.toLowerCase()!="blanco");
         document.write(`<h1 style="text-align:center; font-size:50px">Desafío Ciclos y métodos</h1> 
         <p style="text-align:center; font-size:30px"> Revisa la consola</p>`)
             break;
@@ -62,7 +62,7 @@ function init() {
         var frutas=[fruta1,fruta2,fruta3];  
 
         for (let fruta of frutas){
-            if (fruta.toLocaleLowerCase()==="manzana") {
+            if (fruta.toLowerCase()==="manzana") {
                 continue;
             }
             console.log(fruta);
